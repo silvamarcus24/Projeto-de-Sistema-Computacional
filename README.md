@@ -20,3 +20,5 @@ O sistema buscará músicas no gênero escolhido e montará a playlist de forma 
 ## Consequências
 - Dados já existentes no `.txt` serão considerados na montagem da playlist.
 - O sistema precisa validar os dados inseridos para evitar quebras na estrutura do arquivo.
+- A leitura do arquivo deverá converter os dados em estruturas temporárias para filtragem e seleção.
+- A playlist será composta por músicas ordenadas por entrada (ou pode ser aprimorado para ordenações específicas depois).
