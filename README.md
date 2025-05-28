@@ -40,7 +40,7 @@ O sistema buscará músicas no gênero escolhido e montará a playlist de forma 
 - Cada linha do arquivo conterá os dados de uma música: nome, gênero e duração.
 
 ### (c) Como será feita a comunicação entre o front-end e o back-end? E o banco de dados?
-- O sistema será **monolítico** e **local**, sem separação entre front-end e back-end.
+- O sistema será **monolítico** e **local**, o Front-end vai ser no próprio terminal do CodeBlocks contendo o "Menu" e vai ser lá que o usuário vai entrar com os dados. Já o Back-end seria o próprio programa C, que processa a lógica, manipula dados e responde às entradas do usuário na mesma aplicação.
 - Toda interação ocorrerá via terminal (entrada e saída padrão).
 - O "banco de dados" é acessado diretamente pelo programa em C como um arquivo `.txt`, sem intermediários.
 
