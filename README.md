@@ -22,3 +22,25 @@ O sistema buscará músicas no gênero escolhido e montará a playlist de forma 
 - O sistema precisa validar os dados inseridos para evitar quebras na estrutura do arquivo.
 - A leitura do arquivo deverá converter os dados em estruturas temporárias para filtragem e seleção.
 - A playlist será composta por músicas ordenadas por entrada (ou pode ser aprimorado para ordenações específicas depois).
+
+  ----
+
+## Detalhamento das Escolhas da Arquitetura do Projeto
+
+### (a) Quais as features que serão implementadas?
+- Entrada de dados pelo usuário (nome da música, gênero, duração).
+- Armazenamento das informações em um arquivo de texto (`banco.txt`).
+- Leitura e conversão dos dados em estruturas temporárias (arrays ou structs).
+- Filtro de músicas por gênero e tempo máximo total.
+- Geração de playlist automaticamente com base nos critérios informados.
+- Validação dos dados de entrada para garantir integridade da estrutura do arquivo.
+
+### (b) Como será feito o armazenamento no banco do usuário?
+- O "banco de dados" será um **arquivo `.txt`**, que armazenará as músicas em formato estruturado.
+- Cada linha do arquivo conterá os dados de uma música: nome, gênero e duração.
+
+### (c) Como será feita a comunicação entre o front-end e o back-end? E o banco de dados?
+- O sistema será **monolítico** e **local**, sem separação entre front-end e back-end.
+- Toda interação ocorrerá via terminal (entrada e saída padrão).
+- O "banco de dados" é acessado diretamente pelo programa em C como um arquivo `.txt`, sem intermediários.
+
