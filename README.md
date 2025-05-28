@@ -1,9 +1,6 @@
 # Projeto-de-Sistema-Computacional
 # ADR 001 – Implementação do Sistema de Playlist com Arquivo TXT em Linguagem C 🔊
 
-## Status
-Aceita
-
 ## Contexto
 O projeto propõe a criação de um sistema de montagem automática de playlists musicais personalizadas. O sistema deve permitir a entrada de dados pelo usuário (nome da música, gênero, duração), armazená-los em um arquivo `.txt`, e gerar uma playlist com base no gênero desejado e no tempo total máximo informado.
 
