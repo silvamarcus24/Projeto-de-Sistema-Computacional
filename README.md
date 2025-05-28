@@ -1,5 +1,5 @@
 # Projeto-de-Sistema-Computacional
-# ADR 001 – Implementação do Sistema de Playlist com Arquivo TXT em Linguagem C
+# ADR 001 – Implementação do Sistema de Playlist com Arquivo TXT em Linguagem C 🔊
 
 ## Status
 Aceita
